@@ -1,0 +1,63 @@
+.main {
+  text-align: center;
+  color: #14213D;
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+  line-height: normal;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.coming-soon-text {
+  font-family: 'Lucida Grande';
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.slogan-text {
+  font-family: 'Chalkboard';
+  font-size: 1.8rem;
+}
+
+.links-container {
+  margin-top: 30px;
+}
+
+.links {
+  font-family: 'Chalkboard';
+  text-decoration: none;
+  color: #14213D;
+  margin-right: 12px;
+  font-size: 1.4rem;;
+}
+
+.social-links-container {
+  margin-top: 30px;
+}
+
+.social-links {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.illustrations-container-1 {
+  background-color: #D4D4D4;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.illustrations-container-2 {
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
