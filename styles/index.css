@@ -5,7 +5,7 @@
   width: 90%;
   margin: 0 auto;
   line-height: normal;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 150px;
 }
 
@@ -16,7 +16,7 @@
 
 .coming-soon-text {
   font-family: 'Lucida Grande';
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -24,7 +24,7 @@
 
 .slogan-text {
   font-family: 'Chalkboard';
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .links-container {
@@ -35,8 +35,9 @@
   font-family: 'Chalkboard';
   text-decoration: none;
   color: #14213D;
-  margin-right: 12px;
-  font-size: 1.4rem;;
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 12px;
 }
 
 .social-links-container {
@@ -50,14 +51,71 @@
 
 .illustrations-container-1 {
   background-color: #D4D4D4;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
 
 .illustrations-container-2 {
   position: relative;
-  bottom: 100px;
+  bottom: 50px;
   display: flex;
   justify-content: space-around;
+}
+
+.illustrations-growth {
+  width: 80px;
+}
+
+.illustrations-directory {
+  width: 80px;
+}
+
+.illustrations-sport {
+  width: 80px;
+}
+
+@media only screen and (min-width: 500px) {
+  .coming-soon-text {
+    font-size: 3rem;
+  }
+
+  .slogan-text {
+    font-size: 1.8rem;
+  }
+
+  .links {
+    margin-top: 0;
+    margin-right: 12px;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .illustrations-container-2 {
+    bottom: 80px;
+  }
+
+ .illustrations-growth {
+    width: auto;
+  }
+
+  .illustrations-directory {
+    width: auto;
+  }
+
+  .illustrations-sport {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 910px) {
+  .links {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-height: 860px) {
+  .illustrations-container-1 {
+    position: fixed; 
+  }
 }
