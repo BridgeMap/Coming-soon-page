@@ -1,6 +1,19 @@
+:root {
+  /* colours */
+  --main-color: #14213d;
+  --bg-color: #d4d4d4;
+
+  /* font sizes */
+  --article-text: 1rem;
+  --article-heading: 1.2rem;
+  --slogan-text: 1.8rem;
+  --links-text: 1.8rem;
+  --main-heading: 3rem;
+}
+
 .main {
   text-align: center;
-  color: #14213d;
+  color: var(--main-color);
   max-width: 1170px;
   width: 90%;
   margin: 0 auto;
@@ -27,7 +40,7 @@
 
 .coming-soon-text {
   font-family: "Lucida Grande";
-  font-size: 3rem;
+  font-size: var(--main-heading);
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -35,26 +48,26 @@
 
 .slogan-text {
   font-family: "Chalkboard";
-  font-size: 1.8rem;
+  font-size: var(--slogan-text);
 }
 
 .article-heading {
   font-family: "Lucida Grande";
-  font-size: 1.2rem;
+  font-size: var(--article-heading);
   margin-bottom: 24px;
   text-transform: uppercase;
 }
 
 .article-subheading {
   font-family: "Lucida Grande";
-  font-size: 1.2rem;
+  font-size: var(--article-heading);
   margin-bottom: 24px;
   margin-top: 24px;
 }
 
 .article-text {
   font-family: "Lucida Grande";
-  font-size: 1rem;
+  font-size: var(--article-text);
   margin-bottom: 12px;
   line-height: normal;
 }
@@ -66,9 +79,9 @@
 .links {
   font-family: "Chalkboard";
   text-decoration: none;
-  color: #14213d;
+  color: var(--main-color);
   margin-right: 12px;
-  font-size: 1.4rem;
+  font-size: var(--article-heading);
 }
 
 .social-links-container {
@@ -81,7 +94,7 @@
 }
 
 .illustrations-container-1 {
-  background-color: #d4d4d4;
+  background-color: var(--bg-color);
   position: fixed;
   width: 100%;
   bottom: 0;
