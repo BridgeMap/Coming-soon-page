@@ -6,7 +6,122 @@
   margin: 0 auto;
   line-height: normal;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
+}
+
+.coming-soon-text {
+  font-family: 'Lucida Grande';
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.slogan-text {
+  font-family: 'Chalkboard';
+  font-size: 1.3rem;
+}
+
+.links-container {
+  margin-top: 30px;
+}
+
+.links {
+  font-family: "Chalkboard";
+  text-decoration: none;
+  color: #14213D;
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 12px;
+}
+
+.social-links-container {
+  margin-top: 30px;
+}
+
+.social-links {
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.illustrations-container-1 {
+  background-color: #D4D4D4;
+  width: 100%;
+  bottom: 0;
+}
+
+.illustrations-container-2 {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.illustrations-growth {
+  width: 95px;
+}
+
+.illustrations-directory {
+  width: 95px;
+}
+
+.illustrations-sport {
+  width: 95px;
+}
+
+@media only screen and (min-width: 500px) {
+  .coming-soon-text {
+    font-size: 3rem;
+  }
+
+  .slogan-text {
+    font-size: 1.8rem;
+  }
+
+  .links {
+    margin-top: 0;
+    margin-right: 12px;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .illustrations-container-2 {
+    bottom: 80px;
+  }
+
+ .illustrations-growth {
+    width: auto;
+  }
+
+  .illustrations-directory {
+    width: auto;
+  }
+
+  .illustrations-sport {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 910px) {
+  .links {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-height: 740px) {
+  .illustrations-container-1 {
+    position: fixed; 
+  }
+}
+
+/* Founders.html styling */
+
+.page-text-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  width: 85%;
 }
 
 .header {
@@ -17,25 +132,12 @@
 }
 
 .logo {
-  width: 250px;
+  width: 130px;
 }
 
 .logo-with-margin {
   width: 250px;
   margin-bottom: 30px;
-}
-
-.coming-soon-text {
-  font-family: "Lucida Grande";
-  font-size: 3rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-.slogan-text {
-  font-family: "Chalkboard";
-  font-size: 1.8rem;
 }
 
 .article-heading {
@@ -56,46 +158,7 @@
   font-family: "Lucida Grande";
   font-size: 1rem;
   margin-bottom: 12px;
-  line-height: normal;
-}
-
-.links-container {
-  margin-top: 30px;
-}
-
-.links {
-  font-family: "Chalkboard";
-  text-decoration: none;
-  color: #14213d;
-  margin-right: 12px;
-  font-size: 1.4rem;
-}
-
-.social-links-container {
-  margin-top: 30px;
-}
-
-.social-links {
-  margin-right: 12px;
-  text-decoration: none;
-}
-
-.illustrations-container-1 {
-  background-color: #d4d4d4;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-.illustrations-container-2 {
-  position: relative;
-  bottom: 100px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.page-text-container {
-  margin: 30px 60px 0px 20px;
+  line-height: 1.5;
 }
 
 .link-list {
