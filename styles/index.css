@@ -97,6 +97,18 @@
   .illustrations-container-2 {
     bottom: 80px;
   }
+
+  .illustrations-growth {
+    width: auto;
+  }
+
+  .illustrations-directory {
+    width: auto;
+  }
+
+  .illustrations-sport {
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 905px) {
